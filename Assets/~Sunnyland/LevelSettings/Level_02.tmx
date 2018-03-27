@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextobjectid="67">
+<map version="1.0" tiledversion="2018.02.14" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextobjectid="78">
  <tileset firstgid="1" source="SunnyLand.tsx"/>
  <layer name="BG" width="100" height="100">
   <data encoding="csv">
@@ -105,7 +105,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Tile Layer 1" width="100" height="100">
+ <layer name="Ground" width="100" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -209,7 +209,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="ladders" width="100" height="100">
+ <layer name="Ladders" width="100" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -313,40 +313,27 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Object Layer 1">
-  <object id="1" x="80" y="704" width="32" height="352"/>
-  <object id="2" x="80" y="688" width="32" height="16"/>
-  <object id="3" x="112" y="704" width="16" height="352"/>
-  <object id="4" x="128" y="736" width="16" height="320"/>
-  <object id="5" x="144" y="784" width="16" height="288"/>
-  <object id="6" x="144" y="768" width="16" height="16"/>
-  <object id="7" x="160" y="784" width="16" height="272"/>
-  <object id="8" x="176" y="800" width="16" height="256"/>
-  <object id="9" x="192" y="832" width="16" height="240"/>
-  <object id="10" x="208" y="880" width="16" height="192"/>
-  <object id="11" x="224" y="896" width="1360" height="208"/>
-  <object id="12" x="1488" y="720" width="96" height="176"/>
-  <object id="37" x="1584" y="720" width="16" height="240"/>
-  <object id="38" x="832" y="768" width="128" height="16"/>
-  <object id="39" x="656" y="688" width="144" height="16"/>
-  <object id="40" x="704" y="528" width="240" height="16"/>
-  <object id="41" x="960" y="352" width="640" height="32"/>
-  <object id="42" x="1520" y="384" width="80" height="16"/>
-  <object id="43" x="1472" y="384" width="48" height="16"/>
-  <object id="44" x="1536" y="400" width="48" height="16"/>
-  <object id="45" x="1376" y="288" width="224" height="64"/>
-  <object id="46" x="1376" y="272" width="224" height="16"/>
-  <object id="65" x="1376" y="272">
-   <polyline points="0,0 -160,80"/>
+ <objectgroup name="Ground">
+  <object id="67" x="80" y="688">
+   <polyline points="0,0 0,368 16,368 16,416 1520,416 1520,32 1408,32 1232,208 144,208 144,192 128,192 128,144 112,144 112,112 96,112 96,96 80,96 80,80 64,80 64,48 48,48 48,16 32,16 32,0 0,0"/>
   </object>
-  <object id="66" x="1488" y="720">
-   <polyline points="0,0 -176,176"/>
+  <object id="68" x="1600" y="272">
+   <polyline points="0,0 -224,0 -384,80 -640,80 -640,112 -128,112 -112,128 -64,128 -48,144 -32,144 -16,128 0,112 0,0"/>
+  </object>
+  <object id="73" x="832" y="768">
+   <polyline points="0,0 128,0 128,16 0,16 0,0"/>
+  </object>
+  <object id="74" x="656" y="688">
+   <polyline points="0,0 144,0 144,16 0,16 0,0"/>
+  </object>
+  <object id="75" x="704" y="528">
+   <polyline points="0,0 240,0 240,16 0,16 0,0"/>
   </object>
  </objectgroup>
- <objectgroup name="ladder">
-  <object id="59" x="944" y="352" width="16" height="176"/>
-  <object id="60" x="688" y="528" width="16" height="160"/>
-  <object id="61" x="800" y="688" width="16" height="64"/>
-  <object id="62" x="816" y="768" width="16" height="128"/>
+ <objectgroup name="Ladder">
+  <object id="70" x="688" y="512" width="16" height="176"/>
+  <object id="71" x="800" y="672" width="16" height="96"/>
+  <object id="72" x="816" y="752" width="16" height="144"/>
+  <object id="77" x="944" y="336" width="16" height="208"/>
  </objectgroup>
 </map>
